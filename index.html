@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Input File with Preview</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="image">
+                <img src="" alt="">
+            </div>
+            <div class="content">
+                <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                <div class="text">Nenhum arquivo escolhido, ainda!</div>
+            </div>
+            <div id="cancel-btn"><i class="fas fa-times"></i></div>
+            <div class="file-name">Nome do arquivo</div>
+        </div>
+        <input type="file"  id="default-btn" hidden>
+        <button onclick="defaultBtnActive()" id="custom-btn" name="buttom-inserir-imagem">Escolha um Arquivo</button>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        
+    </script>
+</body>
+</html>
